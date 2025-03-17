@@ -11,13 +11,16 @@
             text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #121212;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center fixed;
+            background-size: cover;
             color: white;
         }
         .container {
             max-width: 800px;
             margin: 50px auto;
             padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
         }
         h1 {
             font-size: 3em;
@@ -49,17 +52,28 @@
             border-radius: 10px;
             box-shadow: 0px 4px 10px rgba(255, 102, 0, 0.5);
         }
+        .logo {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+        .app-preview {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(255, 102, 0, 0.5);
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <img class="logo" src="ic_launcher-playstore.png" alt="Megabass Equalizer Logo">
         <h1>Megabass Equalizer</h1>
         <p>Enhance your music experience with powerful bass boost, professional equalizer, and immersive audio effects.</p>
         <div class="image-container">
-            <img src="ic_launcher-playstore.png" alt="Megabass Equalizer Logo">
+            <img class="app-preview" src="mb.png" alt="Megabass Equalizer Preview">
         </div>
-        <a class="button" href="https://yourappdownloadlink.com">Download Now</a>
+       
     </div>
 </body>
 </html>
-Update landing page for Megabass Equalizer
